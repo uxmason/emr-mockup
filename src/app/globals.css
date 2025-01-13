@@ -2065,6 +2065,7 @@ main .S-01 .T-17:hover {
   font-size: .9em;
   font-weight: 600;
   box-shadow: 0 5px 10px #2b294544;
+  z-index: 1;
 }
 .ticker.isDoctor {
   background-color: #AAC559;

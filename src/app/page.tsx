@@ -621,75 +621,144 @@ export default function Home() {
         </section> : null}
       </main>
       <div ref={asideRightRef} className={`aside-right isHidedScrollBar ${isOpenedRightAside ? 'isOpened' : null}`}>
-        <p className="leading-10 font-bold pl-2 pb-2 text-sm">지점 현황</p>
-        <section className="S-02">
-          <div className="C-00 isHover styleSheet isLeft"></div>
-          <div className="C-00 isHover isToday">
-            <p className="T-00">오늘</p>
-          </div>
-          <div className="C-00 isHover styleSheet isRight"></div>
-        </section>
-        <section className="S-01">
-          <div className="C-01">
-            <div className="C-02 isHover" style={{opacity:.25}}>
-              <div className="C-03"></div>
-              <p className="T-00">일</p>
-              <p className="T-01">05</p>
+        <div className="inner-container">
+          <p className="leading-10 font-bold pl-2 pb-2 text-sm">지점 현황</p>
+          <section className="S-02">
+            <div className="C-00 isHover styleSheet isLeft"></div>
+            <div className="C-00 isHover isToday">
+              <p className="T-00">오늘</p>
             </div>
-            <div className="C-02 isHover" style={{opacity:.5}}>
-              <div className="C-03"></div>
-              <p className="T-00">월</p>
-              <p className="T-01">06</p>
+            <div className="C-00 isHover styleSheet isRight"></div>
+          </section>
+          <section className="S-01">
+            <div className="C-01">
+              <div className="C-02 isHover" style={{opacity:.25}}>
+                <div className="C-03"></div>
+                <p className="T-00">일</p>
+                <p className="T-01">05</p>
+              </div>
+              <div className="C-02 isHover" style={{opacity:.5}}>
+                <div className="C-03"></div>
+                <p className="T-00">월</p>
+                <p className="T-01">06</p>
+              </div>
+              <div className="C-02 isHover" style={{opacity:.75}}>
+                <div className="C-03"></div>
+                <p className="T-00">화</p>
+                <p className="T-01">07</p>
+              </div>
+              <div className="C-02 isHover isSelected">
+                <div className="C-03"></div>
+                <p className="T-00">수</p>
+                <p className="T-01">08</p>
+              </div>
+              <div className="C-02 isHover" style={{opacity:.75}}>
+                <div className="C-03"></div>
+                <p className="T-00">목</p>
+                <p className="T-01">09</p>
+              </div>
+              <div className="C-02 isHover" style={{opacity:.5}}>
+                <div className="C-03"></div>
+                <p className="T-00">금</p>
+                <p className="T-01">10</p>
+              </div>
+              <div className="C-02 isHover" style={{opacity:.25}}>
+                <div className="C-03"></div>
+                <p className="T-00">토</p>
+                <p className="T-01">11</p>
+              </div>
             </div>
-            <div className="C-02 isHover" style={{opacity:.75}}>
-              <div className="C-03"></div>
-              <p className="T-00">화</p>
-              <p className="T-01">07</p>
+            <div className="C-00">
+              <p className="T-02">선택 날짜: <span>2025.01.08</span></p>
             </div>
-            <div className="C-02 isHover isSelected">
-              <div className="C-03"></div>
-              <p className="T-00">수</p>
-              <p className="T-01">08</p>
+          </section>
+          <section className="S-00">
+            <p className="T-00 font-extralight">진료 현황</p>
+            <div className="C-06">
+              <p className="T-07 isHover isTreatment isSelected">진료중</p><p className="T-07 isHover isCompleted isSelected">완료</p><p className="T-07 isHover isReserved isSelected">예약</p><p className="T-07 isHover isWaiting">대기중</p>
             </div>
-            <div className="C-02 isHover" style={{opacity:.75}}>
-              <div className="C-03"></div>
-              <p className="T-00">목</p>
-              <p className="T-01">09</p>
-            </div>
-            <div className="C-02 isHover" style={{opacity:.5}}>
-              <div className="C-03"></div>
-              <p className="T-00">금</p>
-              <p className="T-01">10</p>
-            </div>
-            <div className="C-02 isHover" style={{opacity:.25}}>
-              <div className="C-03"></div>
-              <p className="T-00">토</p>
-              <p className="T-01">11</p>
-            </div>
-          </div>
-          <div className="C-00">
-            <p className="T-02">선택 날짜: <span>2025.01.08</span></p>
-          </div>
-        </section>
-        <section className="S-00">
-          <p className="T-00 font-extralight">진료 현황</p>
-          <div className="C-06">
-            <p className="T-07 isHover isTreatment isSelected">진료중</p><p className="T-07 isHover isCompleted isSelected">완료</p><p className="T-07 isHover isReserved isSelected">예약</p><p className="T-07 isHover isWaiting">대기중</p>
-          </div>
-          <div className="C-05"></div>
-          <div className="C-00">
-            <div className="C-08">
-              <div className="C-01">
-                <div className="C-03">
-                  <div className="C-02 isReserved"></div>
-                  <p className="T-01">14:30</p>
+            <div className="C-05"></div>
+            <div className="C-00">
+              <div className="C-08">
+                <div className="C-01">
+                  <div className="C-03">
+                    <div className="C-02 isReserved"></div>
+                    <p className="T-01">14:30</p>
+                  </div>
+                  <div className="C-04">
+                    <p className="T-02"><span className="isName">문성후</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081149</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
+                    <p className="T-03"><span className="isStatus isReserved">예약</span>체외충격파 1</p>
+                    <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>팔/등메/서포터/skl</span></p>
+                  </div>
                 </div>
-                <div className="C-04">
-                  <p className="T-02"><span className="isName">문성후</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081149</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                  <p className="T-03"><span className="isStatus isReserved">예약</span>체외충격파 1</p>
-                  <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>팔/등메/서포터/skl</span></p>
+                <div className="C-01">
+                  <div className="C-03">
+                    <div className="C-02 isReserved"></div>
+                    <p className="T-01">14:00</p>
+                  </div>
+                  <div className="C-04">
+                    <p className="T-02"><span className="isName">문성후</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081149</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
+                    <p className="T-03"><span className="isStatus isReserved">예약</span>체외충격파 1</p>
+                    <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>팔/등메/서포터/skl</span></p>
+                  </div>
+                </div>
+                <div className="C-01">
+                  <div className="C-03">
+                    <div className="C-02 isNow"></div>
+                    <p className="T-01">13:26</p>
+                  </div>
+                  <div className="C-04">
+                    <p className="T-02"><span className="isName">김인나</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360076012</span><span className="isBox isOrange">재환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
+                    <p className="T-03"><span className="isStatus isNow">진료중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제2진료실</span>R.F 고주파</p>
+                    <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>25.01.08</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
+                  </div>
+                </div>
+                <div className="C-01">
+                  <div className="C-03">
+                    <div className="C-02 isCompleted"></div>
+                    <p className="T-01">13:02</p>
+                  </div>
+                  <div className="C-04">
+                    <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
+                    <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4진료실</span>지방흡입술</p>
+                    <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Ipsalm"></span>김현주<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
+                  </div>
+                </div>
+                <div className="C-01">
+                  <div className="C-03">
+                    <div className="C-02 isCompleted"></div>
+                    <p className="T-01">12:52</p>
+                  </div>
+                  <div className="C-04">
+                    <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
+                    <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4진료실</span>지방흡입술</p>
+                    <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Ipsalm"></span>김현주<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div className="C-07">
+              <div className="C-09 isLams isHover">
+                <div className="C-10 styleSheet"></div>
+                <p className="T-05"><span>4</span>건</p>
+                <p className="T-06">누적 시술</p>
+                <div className="C-11 styleSheet"></div>
+              </div>
+              <div className="C-09 isSurgery isHover">
+                <div className="C-10 styleSheet"></div>
+                <p className="T-05"><span>12</span>건</p>
+                <p className="T-06">누적 O.P</p>
+                <div className="C-11 styleSheet"></div>
+              </div>
+            </div>
+          </section>
+          <section className="S-00 isCounsel">
+            <p className="T-00 font-extralight">상담 현황</p>
+            <div className="C-06">
+              <p className="T-07 isHover isTreatment isSelected">상담중</p><p className="T-07 isHover isCompleted isSelected">완료</p><p className="T-07 isHover isReserved isSelected">예약</p><p className="T-07 isHover isWaiting">대기중</p>
+            </div>
+            <div className="C-05"></div>
+            <div className="C-00">
               <div className="C-01">
                 <div className="C-03">
                   <div className="C-02 isReserved"></div>
@@ -697,8 +766,21 @@ export default function Home() {
                 </div>
                 <div className="C-04">
                   <p className="T-02"><span className="isName">문성후</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081149</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                  <p className="T-03"><span className="isStatus isReserved">예약</span>체외충격파 1</p>
-                  <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>팔/등메/서포터/skl</span></p>
+                  <p className="T-03"><span className="isStatus isReserved">예약</span>시술신환상담</p>
+                  <p className="T-04"><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
+                  <div></div>
+                </div>
+              </div>
+              <div className="C-01">
+                <div className="C-03">
+                  <div className="C-02 isWaiting"></div>
+                  <p className="T-01">14:00</p>
+                </div>
+                <div className="C-04">
+                  <p className="T-02"><span className="isName">문성후</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081149</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
+                  <p className="T-03"><span className="isStatus isWaiting">대기중</span>시술신환상담</p>
+                  <p className="T-04"><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
+                  <div></div>
                 </div>
               </div>
               <div className="C-01">
@@ -708,7 +790,7 @@ export default function Home() {
                 </div>
                 <div className="C-04">
                   <p className="T-02"><span className="isName">김인나</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360076012</span><span className="isBox isOrange">재환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                  <p className="T-03"><span className="isStatus isNow">진료중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제2진료실</span>R.F 고주파</p>
+                  <p className="T-03"><span className="isStatus isNow">상담중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제8상담실</span>시술재환상담</p>
                   <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>25.01.08</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
                 </div>
               </div>
@@ -719,94 +801,14 @@ export default function Home() {
                 </div>
                 <div className="C-04">
                   <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                  <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4진료실</span>지방흡입술</p>
-                  <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Ipsalm"></span>김현주<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
-                </div>
-              </div>
-              <div className="C-01">
-                <div className="C-03">
-                  <div className="C-02 isCompleted"></div>
-                  <p className="T-01">12:52</p>
-                </div>
-                <div className="C-04">
-                  <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                  <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4진료실</span>지방흡입술</p>
-                  <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Ipsalm"></span>김현주<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
+                  <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4상담실</span>시술신환상담</p>
+                  <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
+                  <div></div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="C-07">
-            <div className="C-09 isLams isHover">
-              <div className="C-10 styleSheet"></div>
-              <p className="T-05"><span>4</span>건</p>
-              <p className="T-06">누적 시술</p>
-              <div className="C-11 styleSheet"></div>
-            </div>
-            <div className="C-09 isSurgery isHover">
-              <div className="C-10 styleSheet"></div>
-              <p className="T-05"><span>12</span>건</p>
-              <p className="T-06">누적 O.P</p>
-              <div className="C-11 styleSheet"></div>
-            </div>
-          </div>
-        </section>
-        <section className="S-00 isCounsel">
-          <p className="T-00 font-extralight">상담 현황</p>
-          <div className="C-06">
-            <p className="T-07 isHover isTreatment isSelected">상담중</p><p className="T-07 isHover isCompleted isSelected">완료</p><p className="T-07 isHover isReserved isSelected">예약</p><p className="T-07 isHover isWaiting">대기중</p>
-          </div>
-          <div className="C-05"></div>
-          <div className="C-00">
-            <div className="C-01">
-              <div className="C-03">
-                <div className="C-02 isReserved"></div>
-                <p className="T-01">14:00</p>
-              </div>
-              <div className="C-04">
-                <p className="T-02"><span className="isName">문성후</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081149</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                <p className="T-03"><span className="isStatus isReserved">예약</span>시술신환상담</p>
-                <p className="T-04"><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
-                <div></div>
-              </div>
-            </div>
-            <div className="C-01">
-              <div className="C-03">
-                <div className="C-02 isWaiting"></div>
-                <p className="T-01">14:00</p>
-              </div>
-              <div className="C-04">
-                <p className="T-02"><span className="isName">문성후</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081149</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                <p className="T-03"><span className="isStatus isWaiting">대기중</span>시술신환상담</p>
-                <p className="T-04"><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
-                <div></div>
-              </div>
-            </div>
-            <div className="C-01">
-              <div className="C-03">
-                <div className="C-02 isNow"></div>
-                <p className="T-01">13:26</p>
-              </div>
-              <div className="C-04">
-                <p className="T-02"><span className="isName">김인나</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360076012</span><span className="isBox isOrange">재환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                <p className="T-03"><span className="isStatus isNow">상담중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제8상담실</span>시술재환상담</p>
-                <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>25.01.08</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
-              </div>
-            </div>
-            <div className="C-01">
-              <div className="C-03">
-                <div className="C-02 isCompleted"></div>
-                <p className="T-01">13:02</p>
-              </div>
-              <div className="C-04">
-                <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4상담실</span>시술신환상담</p>
-                <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
         <section className="S-03">
           <p className="T-00 isHover isSelected">지점<br/>현황</p>
           <p className="T-00 isHover">접수<br/>현황</p>
