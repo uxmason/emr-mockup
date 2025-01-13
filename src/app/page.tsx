@@ -550,16 +550,6 @@ export default function Home() {
           </div>
           <div className="C-00">
             <div className="C-01 isWide">
-              <div className="C-02 styleSheet isTreatment"></div>
-              <p className="T-02">내원정보</p>
-              <p className="T-00"><span className="isTitle">시술 시작일:</span>24.11.02</p>
-              <p className="T-00"><span className="isTitle">주기적 내원일:</span>24.12.02</p>
-              <p className="T-00"><span className="isTitle">다음 내원일:</span></p>
-              <p className="T-00"><span className="isTitle">시술 예약일:</span></p>
-              <p className="T-00"><span className="isTitle">1개월 목표체중:</span>61.6<span className="isUnit">kg</span></p>
-              <p className="T-00"><span className="isTitle">달성체중:</span>62.8<span className="isUnit">kg</span></p>
-            </div>
-            <div className="C-01 isWide">
               <div className="C-02 styleSheet isPoint"></div>
               <p className="T-02">포인트현황</p>
               <div className="T-11 isHover" onClick={() => {
@@ -589,6 +579,16 @@ export default function Home() {
                 <p className="T-17">SO</p>
                 <p className="T-17">T/F</p>
               </div>
+            </div>
+            <div className="C-01 isWide">
+              <div className="C-02 styleSheet isTreatment"></div>
+              <p className="T-02">내원정보</p>
+              <p className="T-00"><span className="isTitle">시술 시작일:</span>24.11.02</p>
+              <p className="T-00"><span className="isTitle">주기적 내원일:</span>24.12.02</p>
+              <p className="T-00"><span className="isTitle">다음 내원일:</span></p>
+              <p className="T-00"><span className="isTitle">시술 예약일:</span></p>
+              <p className="T-00"><span className="isTitle">1개월 목표체중:</span>61.6<span className="isUnit">kg</span></p>
+              <p className="T-00"><span className="isTitle">달성체중:</span>62.8<span className="isUnit">kg</span></p>
             </div>
             <div className="C-01 isWide">
               <div className="C-02 styleSheet isPrescription"></div>
