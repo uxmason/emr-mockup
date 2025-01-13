@@ -110,6 +110,14 @@ h1 {
   background-position-x: -80px;
   background-position-y: -240px;
 }
+.isIcon.isConsulation {
+  background-position-x: -120px;
+  background-position-y: -240px;
+}
+.isIcon.isLams {
+  background-position-x: -160px;
+  background-position-y: -240px;
+}
 
 .isIcon.isPart.isSelected,
 .isIcon.isDollar.isSelected,
@@ -572,7 +580,7 @@ header {
   padding:10px;
   width: calc(100% - 555px);
   border-radius:10px;
-  border: 2px solid #2b294508;
+  border: 2px solid #2b294511;
   transition: .3s;
 }
 header .C-00 {
@@ -629,7 +637,7 @@ aside {
   background-color:white;
   border-radius:10px;
   transition: .3s;
-  box-shadow: 0 5px 20px #2b294508;
+  box-shadow: 0 5px 20px #2b294511;
   position: relative;
   left:0;
   z-index: 1;
@@ -730,6 +738,10 @@ aside .T-00 {
   opacity: 0;
   transition: .3s;
 }
+.isEng aside .T-00 {
+  font-size: .75em;
+  padding: 10px;
+}
 aside:hover .T-00 {
   opacity: 1;
 }
@@ -816,7 +828,7 @@ aside .T-01 {
   position: absolute;
   top:54px;
   left:21px;
-  background-color: #2b294508;
+  background-color: #2b294511;
 }
 .aside-right .S-00 .C-06 {
   position: absolute;
@@ -869,8 +881,8 @@ aside .T-01 {
   top: 18px;
   right: 10px;
   border-radius: 50%;
-  background-color: #2b294508;
-  box-shadow: 0 5px 20px #2b294508;
+  background-color: #2b294511;
+  box-shadow: 0 5px 20px #2b294511;
 }
 .aside-right .S-00 .T-01 {
   width: fit-content;
@@ -945,7 +957,7 @@ aside .T-01 {
 }
 .aside-right .S-00 .T-03 .isStatus {
   font-size: .9em;
-  background-color: #2b294508;
+  background-color: #2b294511;
   padding: 3px 5px;
   margin: 0px 5px 0px 0px;
   border-radius: 5px;
@@ -971,7 +983,7 @@ aside .T-01 {
   line-height: 20px;
   border-radius: 10px;
   padding: 0 10px;
-  background-color: #2b294508;
+  background-color: #2b294511;
   margin-right: 5px;
 }
 .aside-right .S-00 .T-04 .isBox.isDoctor {
@@ -1089,7 +1101,7 @@ aside .T-01 {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #2b294508;
+  background-color: #2b294511;
   border-radius: 10px;
   opacity: 0;
   transition: .3s;
@@ -1192,7 +1204,7 @@ main {
 main .S-00 {
   padding: 15px;
   border-radius: 10px;
-  border: 2px solid #2b294508;
+  border: 2px solid #2b294511;
   width: 100%;
   z-index: 1;
   position: relative;
@@ -1410,7 +1422,7 @@ main .S-01 .C-00:last-of-type {
 main .S-01 .C-01 {
   padding: 15px;
   border-radius: 10px;
-  border: 2px solid #2b294508;
+  border: 2px solid #2b294511;
   margin-top: 10px;
   position: relative;
   overflow: hidden;
@@ -1460,7 +1472,7 @@ main .S-01 .C-02.isPurchase {
 main .S-01 .C-03 {
   padding: 15px;
   border-radius: 10px;
-  border: 2px solid #2b294508;
+  border: 2px solid #2b294511;
   margin-top: 10px;
   position: relative;
 }
@@ -1476,7 +1488,7 @@ main .S-01 .C-05 {
   position: absolute;
   top: 70px;
   left: 26px;
-  background-color: #2b294508;
+  background-color: #2b294511;
 }
 main .S-01 .C-07 {
   padding-bottom: 15px;
@@ -1566,7 +1578,7 @@ main .S-01 .C-18 {
   z-index: 1;
   position: relative;
   transition: .3s;
-  box-shadow: 0 5px 20px #2b294508;
+  box-shadow: 0 5px 20px #2b294511;
   
 }
 main .S-01 .C-18.isCompleted {
@@ -1619,7 +1631,7 @@ main .S-01 .C-21 {
 main .S-01 .C-21.isStomach {
   background-position-x: -40px;
   background-position-y: -2500px;
-  background-color: #2b294508;
+  background-color: #2b294511;
 }
 main .S-01 .C-22 {
   height: 40px;
@@ -1628,7 +1640,7 @@ main .S-01 .C-22 {
 main .S-01 .T-00 {
   padding: 0 0 0 65px;
   line-height: 22px;
-  border-bottom: 1px dashed #2b294508;
+  border-bottom: 1px dashed #2b294511;
   font-size: .9em;
 }
 main .S-01 .T-00.isPadding {
@@ -1747,7 +1759,7 @@ main .S-01 .T-06 {
 }
 main .S-01 .T-06 .isStatus {
   font-size: .9em;
-  background-color: #2b294508;
+  background-color: #2b294511;
   padding: 3px 5px;
   margin: 0 5px 0 0;
   border-radius: 5px;
@@ -1792,7 +1804,7 @@ main .S-01 .T-07 .isBox {
   line-height: 20px;
   border-radius: 10px;
   padding: 0 10px;
-  background-color: #2b294508;
+  background-color: #2b294511;
   margin-right: 5px;
 }
 main .S-01 .T-07 .isBox.isDoctor {
@@ -1928,7 +1940,7 @@ main .S-01 .T-14 .isDate {
 }
 main .S-01 .T-15 {
   font-size: .8em;
-  padding: 2px 50px;
+  padding: 2px 0 2px 50px;
   line-height: 20px;
 }
 main .S-01 .T-15 .isBox {
@@ -1946,6 +1958,29 @@ main .S-01 .T-15 .isBox.isYellow {
   background-color: #FDC66922;
   color: #FDC669;
 }
+main .S-01 .T-15 .isComment {
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  padding: 0 10px;
+  background-color: #2b294511;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: .7em;
+  font-weight: 400;
+  color: #2b294555;
+}
+main .S-01 .T-15 .isComment .isValue {
+  margin-left: 3px;
+}
+main .S-01 .T-15 .isComment .isValue.isPrice {
+  color: #59ABE4;
+  font-weight: 700;
+}
+main .S-01 .T-15 .isComment .isValue.isDiscount {
+  color: #E97453;
+  font-weight: 700;
+}
 main .S-01 .T-16 {
   background-color: #eef2e3;
   line-height: 40px;
@@ -1957,6 +1992,16 @@ main .S-01 .T-16 {
   margin: 0 2px;
   font-weight: 600;
 }
+main .S-01 .T-17 {
+  font-size: .8em;
+  line-height: 25px;
+  border-bottom: 1px dashed #2b294533;
+  cursor: pointer;
+  transition: .3s;
+}
+main .S-01 .T-17:hover {
+  opacity: .5;
+}
 .header-menu {
   width: 64px;
   height: 64px;
@@ -1965,7 +2010,7 @@ main .S-01 .T-16 {
   left:-88px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 0 5px 15px #2b294508;
+  box-shadow: 0 5px 15px #2b294511;
 }
 .header-menu.isRight {
   left: auto;

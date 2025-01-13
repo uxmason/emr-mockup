@@ -3,277 +3,165 @@ import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
   const arrayTopMenu = [{
-    lv0:'즐겨찾기',
+    lv0:'Favorites',
     style:'isFavorite',
     lv1:[{
-      name:'첫화면',
+      name:'Home',
       style:'isHome',
       lv2:[],
     },{
-      name:'즐겨찾기 관리',
+      name:'Management',
       style:'isFavorite',
       lv2:[],
     }]
   },{
-    lv0:'파트구분',
+    lv0:'Collection',
     style:'isPart',
     lv1:[{
-      name:'접수 파트',
+      name:'Payment',
       style:'isPart',
       lv2:[],
     },{
-      name:'상담 파트',
+      name:'Consulation',
       style:'isPart',
       lv2:[],
     },{
-      name:'시술 파트',
+      name:'Procedures',
       style:'isConsultation',
       lv2:[],
     },{
-      name:'진료 파트',
+      name:'Treatment',
       style:'isConsultation',
-      lv2:[],
-    },{
-      name:'수술 파트',
-      style:'isHeartRate',
-      lv2:[],
-    },{
-      name:'병실 파트',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'촬영 파트',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'CRM 파트',
-      style:'isPart',
       lv2:[],
     }]
   },{
-    lv0:'수납관리',
+    lv0:'Payment',
     style:'isDollar',
     lv1:[{
-      name:'일일 업무마감 현황',
+      name:'Payment',
       style:'isPart',
-      lv2:[],
-    },{
-      name:'수납확인서 내역 조회',
-      style:'isPart',
-      lv2:[],
     }]
   },{
-    lv0:'고객관리',
+    lv0:'Customer',
     style:'isUser',
     lv1:[{
-      name:'SO',
+      name:'Bardoce',
       style:'isPart',
-      lv2:[],
     },{
-      name:'바코드관리',
+      name:'Branch',
       style:'isPart',
-      lv2:[{
-        name:'고객바코드 접수통계',
-        style:'isPart',
-      },{
-        name:'Transfer 관리',
-        style:'isPart',
-      }],
     },{
-      name:'T/F 관리',
+      name:'Customer',
       style:'isPart',
-      lv2:[{
-        name:'T/F 고객자료 조회',
-        style:'isPart',
-      },{
-        name:'T/F 고객 Lock 처리',
-        style:'isPart',
-      }],
     },{
-      name:'(구) 지점 자료 조회',
+      name:'Blood Test',
       style:'isPart',
-      lv2:[],
     },{
-      name:'(구) 지점 등록자료 이동',
+      name:'Action Index',
       style:'isPart',
-      lv2:[],
     },{
-      name:'문자메세지 관리',
+      name:'Success Stories',
       style:'isPart',
-      lv2:[{
-        name:'문자메세지 전송내역',
-        style:'isPart',
-      },{
-        name:'문자메세지 전송',
-        style:'isPart',
-      },{
-        name:'멀티 문자메세지 전송',
-        style:'isPart',
-      },{
-        name:'문자전송 대상목록 (개발자)',
-        style:'isPart',
-      }],
-    },{
-      name:'고객관리서식(수술)',
-      style:'isPart',
-      lv2:[{
-        name:'고객관리서식 User(수술)',
-        style:'isPart',
-      },{
-        name:'고객봔리 User복사(수술)',
-        style:'isPart',
-      },{
-        name:'User별 고객관리서식(수술)',
-        style:'isPart',
-      }],
-    },{
-      name:'고객관리서식(람스/시술)',
-      style:'isPart',
-      lv2:[{
-        name:'고객관리서식 목록',
-        style:'isPart',
-      },{
-        name:'고객관리 User복사 기수',
-        style:'isPart',
-      }],
-    },{
-      name:'고객관리서식',
-      style:'isPart',
-      lv2:[{
-        name:'고객진료 회차조회',
-        style:'isPart',
-      },{
-        name:'고객진료 회차(신환수납기준)',
-        style:'isPart',
-      }],
-    },{
-      name:'체성분 관리',
-      style:'isPart',
-      lv2:[{
-        name:'체성분 분석자료',
-        style:'isPart',
-      },{
-        name:'체성분 자료등록',
-        style:'isPart',
-      },{
-        name:'체성분 측정현황',
-        style:'isPart',
-      }],
-    },{
-      name:'의무기록열람(발급) 관리',
-      style:'isPart',
-      lv2:[{
-        name:'의무기록 사본요청(출력)',
-        style:'isPart',
-      },{
-        name:'의무기록 열람요청',
-        style:'isPart',
-      },{
-        name:'의무기록 완결도 현황(수술)',
-        style:'isPart',
-      },{
-        name:'의무기록 완결도 현황(서울병원)',
-        style:'isPart',
-      },{
-        name:'의무기록 완결도 현황(시술)',
-        style:'isPart',
-      },{
-        name:'협진 완결도 현황',
-        style:'isPart',
-      },{
-        name:'간호사확인 완결도 현황',
-        style:'isPart',
-      }],
-    },{
-      name:'실천지수',
-      style:'isPart',
-      lv2:[{
-        name:'개인 실천지수 관리',
-        style:'isPart',
-      },{
-        name:'실천지수 소멸 내역',
-        style:'isPart',
-      },{
-        name:'실천지수 분류별 개인현황',
-        style:'isPart',
-      }],
-    },{
-      name:'병원 서식 출력',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'성공기 설문지 전송',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'고객자료 등록 변경',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'고객번호 삭제 및 기수변경 삭제',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'VITAL SIGN VIEW',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'전달자료 조회',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'등록고객 현황',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'고객 분류별 지수 현황',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'개인 참조 관리',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'개인 POINT 관리',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'본인인증 확인 조회 현황',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'메이트(OP) 현황',
-      style:'isPart',
-      lv2:[],
-    },{
-      name:'실천반갑 지방흡입 분할금 관리',
-      style:'isPart',
-      lv2:[],
     }]
   },{
-    lv0:'관련자료',
-    style:'isBook'
+    lv0:'Consulation',
+    style:'isConsulation',
+    lv1:[{
+      name:'Consultation Materials',
+      style:'isPart',
+    },{
+      name:'Customer Consultations',
+      style:'isPart',
+    },{
+      name:'Registration status',
+      style:'isPart',
+    },{
+      name:'Call Recordings',
+      style:'isPart',
+    },{
+      name:'Surveys',
+      style:'isPart',
+    }]
   },{
-    lv0:'예약관리',
-    style:'isCheck'
+    lv0:'LAMS',
+    style:'isLams',
+    lv1:[{
+      name:'LAMS Consultations',
+      style:'isPart',
+    },{
+      name:'Procedure Status',
+      style:'isPart',
+    },{
+      name:'Registration Status',
+      style:'isPart',
+    },{
+      name:'Payment Status',
+      style:'isPart',
+    },{
+      name:'Prescription Details',
+      style:'isPart',
+    },{
+      name:'LAMS Reservations',
+      style:'isPart',
+    }]
   },{
-    lv0:'수술관리',
-    style:'isHeartRate'
+    lv0:'Reservation',
+    style:'isCheck',
+    lv1:[{
+      name:'Reservation Registration',
+      style:'isPart',
+    },{
+      name:'LAMS Reservations',
+      style:'isPart',
+    },{
+      name:'Reservation Date Changes',
+      style:'isPart',
+    }]
   },{
-    lv0:'진료관리',
-    style:'isConsultation'
+    lv0:'Treatment',
+    style:'isConsultation',
+    lv1:[{
+      name:'Prescriptions',
+      style:'isPart',
+    },{
+      name:'Ultrasounds',
+      style:'isPart',
+    },{
+      name:'Prescription Edits',
+      style:'isPart',
+    },{
+      name:'Prescription Materials',
+      style:'isPart',
+    }]
   },{
-    lv0:'CRM관리',
-    style:'isCRM'
+    lv0:'CRM',
+    style:'isCRM',
+    lv1:[{
+      name:'Customer Data',
+      style:'isPart',
+    },{
+      name:'Customer Satisfaction',
+      style:'isPart',
+    }]
   },{
-    lv0:'기타관리',
-    style:'isSetting'
-  },{
-    lv0:'통계자료',
-    style:'isStatistic'
-  },{
-    lv0:'기초자료',
-    style:'isNote'
+    lv0:'Statistics',
+    style:'isStatistic',
+    lv1:[{
+      name:'Customer Data',
+      style:'isPart',
+    },{
+      name:'Consultation Data',
+      style:'isPart',
+    },{
+      name:'Procedure Data',
+      style:'isPart',
+    },{
+      name:'Medical Care Data',
+      style:'isPart',
+    },{
+      name:'Indicator Management',
+      style:'isPart',
+    }]
   }];
   const asideRightRef = useRef<HTMLDivElement>(null);
   const autoCompleteRef = useRef<HTMLDivElement>(null);
@@ -324,7 +212,7 @@ export default function Home() {
     };
   }, []);
   return (
-    <div className="urtitan">
+    <div className="urtitan isEng">
       <header className="m-3" onClick={() => {
         setOpenedLeftAside(false);
         setOpenedRightAside(false);
@@ -550,21 +438,11 @@ export default function Home() {
           </div>
           <div className="C-00">
             <div className="C-01 isWide">
-              <div className="C-02 styleSheet isTreatment"></div>
-              <p className="T-02">내원정보</p>
-              <p className="T-00"><span className="isTitle">시술 시작일:</span>24.11.02</p>
-              <p className="T-00"><span className="isTitle">주기적 내원일:</span>24.12.02</p>
-              <p className="T-00"><span className="isTitle">다음 내원일:</span></p>
-              <p className="T-00"><span className="isTitle">시술 예약일:</span></p>
-              <p className="T-00"><span className="isTitle">1개월 목표체중:</span>61.6<span className="isUnit">kg</span></p>
-              <p className="T-00"><span className="isTitle">달성체중:</span>62.8<span className="isUnit">kg</span></p>
-            </div>
-            <div className="C-01 isWide">
               <div className="C-02 styleSheet isPoint"></div>
               <p className="T-02">포인트현황</p>
               <div className="T-11 isHover" onClick={() => {
                 setOpenedMenuList(true);
-              }}>처방목록<div className={`C-16 styleSheet`}></div></div>
+              }}>버튼 메뉴<div className={`C-16 styleSheet`}></div></div>
               <p className="T-00"><span className="isTitle">여권번호:</span></p>
               <p className="T-00"><span className="isTitle">실천지수:</span>342,400<span className="isUnit">P</span></p>
               <p className="T-00"><span className="isTitle">땡큐/메이트:</span>0 / 0</p>
@@ -589,6 +467,16 @@ export default function Home() {
                 <p className="T-17">SO</p>
                 <p className="T-17">T/F</p>
               </div>
+            </div>
+            <div className="C-01 isWide">
+              <div className="C-02 styleSheet isTreatment"></div>
+              <p className="T-02">내원정보</p>
+              <p className="T-00"><span className="isTitle">시술 시작일:</span>24.11.02</p>
+              <p className="T-00"><span className="isTitle">주기적 내원일:</span>24.12.02</p>
+              <p className="T-00"><span className="isTitle">다음 내원일:</span></p>
+              <p className="T-00"><span className="isTitle">시술 예약일:</span></p>
+              <p className="T-00"><span className="isTitle">1개월 목표체중:</span>61.6<span className="isUnit">kg</span></p>
+              <p className="T-00"><span className="isTitle">달성체중:</span>62.8<span className="isUnit">kg</span></p>
             </div>
             <div className="C-01 isWide">
               <div className="C-02 styleSheet isPrescription"></div>
