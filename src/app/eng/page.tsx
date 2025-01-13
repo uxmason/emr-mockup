@@ -178,7 +178,7 @@ export default function Home() {
   const [isOpenedLeftAside, setOpenedLeftAside] = useState(false);
   const [isOpenedRightAside, setOpenedRightAside] = useState(false);
   const [isOpenedSpecialInfo, setOpenedSpecialInfo] = useState(false);
-  const [isOpenedPredictionList, setOpenedPredictionList] = useState(false);
+  // const [isOpenedPredictionList, setOpenedPredictionList] = useState(false);
   const [isOpenedMenuList, setOpenedMenuList] = useState(false);
   const [height, setHeight] = useState(0);
   const [position, setPosition] = useState({ x: 0, y: 0 });
