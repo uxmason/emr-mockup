@@ -277,10 +277,10 @@ export default function Home() {
   }];
   const asideRightRef = useRef(null);
   const autoCompleteRef = useRef(null);
-  const [selectedLv0Index, setSelectedLv0Index] = useState(1);
-  const [selectedLv1Index, setSelectedLv1Index] = useState(0);
+  const [selectedLv0Index] = useState(1);
+  const [selectedLv1Index] = useState(0);
   const [isOpenedLv1, setOpenedLv1] = useState(false);
-  const [isOpenedLv2, setOpenedLv2] = useState(false);
+  const [isOpenedLv2] = useState(false);
   const [isHoverMain, setHoverMain] = useState(false);
   const [isTickerPsentry, setTickerPsentry] = useState(false);
   const [isTickerDoctor, setTickerDoctor] = useState(false);
