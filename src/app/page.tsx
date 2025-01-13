@@ -564,7 +564,7 @@ export default function Home() {
               <p className="T-02">포인트현황</p>
               <div className="T-11 isHover" onClick={() => {
                 setOpenedMenuList(true);
-              }}>처방목록<div className={`C-16 styleSheet`}></div></div>
+              }}>버튼 메뉴<div className={`C-16 styleSheet`}></div></div>
               <p className="T-00"><span className="isTitle">여권번호:</span></p>
               <p className="T-00"><span className="isTitle">실천지수:</span>342,400<span className="isUnit">P</span></p>
               <p className="T-00"><span className="isTitle">땡큐/메이트:</span>0 / 0</p>
