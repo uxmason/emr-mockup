@@ -310,7 +310,7 @@ export default function Home() {
         }
       }
     };
-    const handleMouseMove = (e: { clientX: any; clientY: any; }) => {
+    const handleMouseMove = (e: { clientX: number; clientY: number; }) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
