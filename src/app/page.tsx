@@ -364,8 +364,9 @@ export default function Home() {
           <div className="C-00">
             <input type="text" className="I-00" placeholder="차트번호 / 고객명 / 생년월일" onFocus={() => {
               setOpenedAutoComplete(true);
-            }} onBlur={(e) => {
-              if (autoCompleteRef.current && autoCompleteRef.current.contains(e.nativeEvent.relatedTarget)) {
+            }} onBlur={(e: React.FocusEvent) => {
+              const relatedTarget = e.relatedTarget as Node;
+              if (autoCompleteRef.current && autoCompleteRef.current.contains(relatedTarget)) {
                 return;
               }
               setOpenedAutoComplete(false);
