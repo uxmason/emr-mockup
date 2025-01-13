@@ -22,7 +22,7 @@ export default function Home() {
       style:'isPart',
       lv2:[],
     },{
-      name:'Consulation',
+      name:'consultation',
       style:'isPart',
       lv2:[],
     },{
@@ -64,8 +64,8 @@ export default function Home() {
       style:'isPart',
     }]
   },{
-    lv0:'Consulation',
-    style:'isConsulation',
+    lv0:'Consultation',
+    style:'isConsultation',
     lv1:[{
       name:'Consultation Materials',
       style:'isPart',
@@ -338,7 +338,7 @@ export default function Home() {
                   <div className="C-13 isSurgery">
                     <div className="C-18">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">복부</span>복부위아래+러브+옆구리(앞뒤)<span className="isComment">횟수:<span className="isValue">2</span></span><span className="isComment">금액:<span className="isValue isPrice">2,112,000</span>원</span><span className="isComment">DC:<span className="isValue isDiscount">-211,200</span>원</span><span className="isComment">등록자:<span className="isValue">김지수</span></span><span className="isComment">참조:<span className="isValue">뒷볼방향</span></span></p>
+                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">복부</span><span className="isBox isThin">FAT0946</span>복부위아래+러브+옆구리(앞뒤)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">금액:<span className="isValue isPrice">2,112,000</span>원</span><span className="isComment">DC:<span className="isValue isDiscount">-211,200</span>원</span><span className="isComment">등록자:<span className="isValue">김지수</span></span><span className="isComment">참조:<span className="isValue">뒷볼방향</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19">
@@ -348,7 +348,7 @@ export default function Home() {
                   <div className="C-13 isSurgery">
                     <div className="C-18">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">복부</span>가멘트-복부(여자용)<span className="isComment">횟수:<span className="isValue">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">복부</span><span className="isBox isThin">FAT0946</span>가멘트-복부(여자용)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19">
@@ -358,7 +358,7 @@ export default function Home() {
                   <div className="C-13 isLams">
                     <div className="C-18 isCompleted">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isYellow">시술</span><span className="isBox">복부</span>지흡후관리-RF(병행)<span className="isComment">횟수:<span className="isValue">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isYellow">시술</span><span className="isBox">복부</span><span className="isBox isThin">FAT0946</span>지흡후관리-RF(병행)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19 isCompleted">
@@ -368,7 +368,7 @@ export default function Home() {
                   <div className="C-13 isLams">
                     <div className="C-18 isCompleted">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isYellow">시술</span><span className="isBox">복부</span>지흡후관리-엔더(병행)<span className="isComment">횟수:<span className="isValue">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isYellow">시술</span><span className="isBox">복부</span><span className="isBox isThin">FAT0946</span>지흡후관리-엔더(병행)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19 isCompleted">
@@ -378,7 +378,7 @@ export default function Home() {
                   <div className="C-13 isLams">
                     <div className="C-18 isCompleted">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isYellow">시술</span><span className="isBox">복부</span>지흡후관리-카복시(병행)<span className="isComment">횟수:<span className="isValue">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isYellow">시술</span><span className="isBox">복부</span><span className="isBox isThin">FAT0946</span>지흡후관리-카복시(병행)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">등록자:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19 isCompleted">
@@ -393,12 +393,13 @@ export default function Home() {
             <div className="C-03">
               <p className="T-03 font-extralight">내원 기록</p>
               <div className="C-17">
-              <p className="T-12 isHover isNow isSelected">내원</p>
+                <p className="T-12 isHover isNow isSelected">내원</p>
                 <p className="T-12 isHover isTreatment isSelected">진료</p>
                 <p className="T-12 isHover isCouncil isSelected">상담</p>
-                <p className="T-12 isHover isMemo isSelected">메모</p></div>
-              <div className="C-05"></div>
-              <div className="C-04 isHidedScrollBar">
+                <p className="T-12 isHover isMemo isSelected">메모</p>
+              </div>
+              <div className="C-05 isShort"></div>
+              <div className="C-04 isHidedScrollBar isShort">
                 <div className="C-06">
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isNow"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
@@ -435,15 +436,70 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="C-01 isWide">
+              <div className="C-02 styleSheet isAfterService"></div>
+              <p className="T-02">후관리 현황</p>
+              <div className="C-05 isShort"></div>
+              <div className="C-23 isHidedScrollBar">
+                <div className="C-06">
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isComment"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p><p className="T-18">56.4<span>kg</span></p></div>
+                    <div className="C-10"><p className="T-06 isComment">체외충격파 러브핸들(7) :: 01] 83.2*0.0 <br/>체외충격파 복부(6) :: 02] 83.2*0.0</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">작성자: </span>김유진</span><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span></p></div>
+                  </div>
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isComment"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p><p className="T-18">60.4<span>kg</span></p></div>
+                    <div className="C-10"><p className="T-06 isComment">체외충격파 러브핸들(7) :: 01] 83.2*0.0 <br/>체외충격파 복부(6) :: 02] 83.2*0.0</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">작성자: </span>김유진</span><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span></p></div>
+                  </div>
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isComment"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p><p className="T-18">60.4<span>kg</span></p></div>
+                    <div className="C-10"><p className="T-06 isComment">체외충격파 러브핸들(7) :: 01] 83.2*0.0 <br/>체외충격파 복부(6) :: 02] 83.2*0.0</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">작성자: </span>김유진</span><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span></p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="C-01 isWide">
+              <div className="C-02 styleSheet isAfterEffect"></div>
+              <p className="T-02">후증상 현황</p>
+              <p className="T-13 isMini">최종 분석일: <span className="isDate isMini">2024.09.24</span></p>
+              <p className="T-00"><span className="isTitle">Bruise:</span>5.0<span className="isUnit">%</span><span className="isStatusBar isBlue"></span><span className="isComment isBlue">낮음</span></p>
+              <p className="T-00"><span className="isTitle">Biobond:</span>50.7<span className="isUnit">%</span><span className="isStatusBar isBlue"></span><span className="isComment isBlue">낮음</span></p>
+              <p className="T-00"><span className="isTitle">Irregularity:</span>22.0<span className="isUnit">%</span><span className="isStatusBar isYellow"></span><span className="isComment isYellow">보통</span></p>
+              <p className="T-00"><span className="isTitle">Seroma:</span>0.0<span className="isUnit">%</span><span className="isStatusBar isBlue"></span><span className="isComment isBlue">낮음</span></p>
+            </div>
           </div>
           <div className="C-00">
             <div className="C-01 isWide">
               <div className="C-02 styleSheet isPoint"></div>
-              <p className="T-02">포인트현황</p>
+              <p className="T-02">실천지수 현황</p>
               <div className="T-11 isHover" onClick={() => {
                 setOpenedMenuList(true);
               }}>버튼 메뉴<div className={`C-16 styleSheet`}></div></div>
               <p className="T-00"><span className="isTitle">여권번호:</span></p>
+              <div className="C-25"></div>
+              <div className="C-24 isHidedScrollBar">
+                <div className="C-06">
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isCompleted"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">적립</span>OP더블체중실천지수</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span><span className="isBox isComment"><span className="isUnit">지수: </span><span className="isBold">40,000</span>P</span></p></div>
+                  </div>
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isCompleted"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">적립</span>2022 메이트</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span><span className="isBox isComment"><span className="isUnit">지수: </span><span className="isBold">100,000</span>P</span></p></div>
+                  </div>
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isCompletedCouncil"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompletedCouncil">사용</span>수납적용</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span><span className="isBox isComment"><span className="isUnit">지수: </span><span className="isBold isOrange">-319,000</span>P</span></p></div>
+                  </div>
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isCompleted"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">적립</span>맴버십앱 후설문 작성</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span><span className="isBox isComment"><span className="isUnit">지수: </span><span className="isBold">5,000</span>P</span></p></div>
+                  </div>
+                  <div className="C-07">
+                    <div className="C-08"><div className="C-09 isCompleted"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">적립</span>성공 후기 작성 자동 적립 (OP)</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">기수: </span><span className="isBold">1</span></span><span className="isBox isComment"><span className="isUnit">지수: </span><span className="isBold">1,000</span>P</span></p></div>
+                  </div>
+                </div>
+              </div>
               <p className="T-00"><span className="isTitle">실천지수:</span>342,400<span className="isUnit">P</span></p>
               <p className="T-00"><span className="isTitle">땡큐/메이트:</span>0 / 0</p>
               <div className={`C-15 ${isOpenedMenuList ? 'isOpened' : null}`}  onClick={() => {
@@ -478,7 +534,7 @@ export default function Home() {
               <p className="T-00"><span className="isTitle">1개월 목표체중:</span>61.6<span className="isUnit">kg</span></p>
               <p className="T-00"><span className="isTitle">달성체중:</span>62.8<span className="isUnit">kg</span></p>
             </div>
-            <div className="C-01 isWide">
+            {/* <div className="C-01 isWide">
               <div className="C-02 styleSheet isPrescription"></div>
               <p className="T-02">처방정보</p>
               <div className="T-11 isHover" onClick={() => {
@@ -495,7 +551,7 @@ export default function Home() {
               <div className={`C-14 isHidedScrollBar ${isOpenedPredictionList ? 'isOpened' : null}`}>
                 <p className="T-10">간장 공장 공장장은 간 공장장이고, 된장 공장 공장장은 된 공장장이다.</p>
               </div>
-            </div>
+            </div> */}
             <div className="C-01 isWide">
               <div className="C-02 styleSheet isPurchase"></div>
               <p className="T-02">수납정보</p>

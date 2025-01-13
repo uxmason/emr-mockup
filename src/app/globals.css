@@ -110,7 +110,7 @@ h1 {
   background-position-x: -80px;
   background-position-y: -240px;
 }
-.isIcon.isConsulation {
+.isIcon.isConsultation {
   background-position-x: -120px;
   background-position-y: -240px;
 }
@@ -1462,12 +1462,22 @@ main .S-01 .C-02.isTreatment {
 main .S-01 .C-02.isPrescription {
   background-position-x: 5px;
   background-position-y: -775px;
-  background-color: #aac55933;
+  background-color: #AAC55933;
 }
 main .S-01 .C-02.isPurchase {
   background-position-x: -25px;
   background-position-y: -775px;
   background-color: #59abe433;
+}
+main .S-01 .C-02.isAfterService {
+  background-position-x: -115px;
+  background-position-y: -775px;
+  background-color: #AAC55933;
+}
+main .S-01 .C-02.isAfterEffect {
+  background-position-x: -145px;
+  background-position-y: -775px;
+  background-color: #E9745333;
 }
 main .S-01 .C-03 {
   padding: 15px;
@@ -1482,16 +1492,23 @@ main .S-01 .C-04 {
   position: relative;
   overflow-y: scroll;
 }
+main .S-01 .C-04.isShort {
+  height: 235px;
+}
 main .S-01 .C-05 {
   width: 2px;
   height: 720px;
   position: absolute;
-  top: 70px;
+  top: 60px;
   left: 26px;
   background-color: #2b294511;
 }
+main .S-01 .C-05.isShort {
+  height: 235px;
+}
 main .S-01 .C-07 {
   padding-bottom: 15px;
+  position: relative;
 }
 main .S-01 .C-09 {
   width: 14px;
@@ -1637,11 +1654,32 @@ main .S-01 .C-22 {
   height: 40px;
   margin: 10px -2px;
 }
+main .S-01 .C-23 {
+  height: 226px;
+  position: relative;
+  overflow-y: scroll;
+}
+main .S-01 .C-24 {
+  height: 215px;
+  padding-top: 10px;
+  border-bottom: 1px dashed #2b294511;
+  position: relative;
+  overflow-y: scroll;
+}
+main .S-01 .C-25 {
+  width: 2px;
+  height: 215px;
+  position: absolute;
+  top: 85px;
+  left: 26px;
+  background-color: #2b294511;
+}
 main .S-01 .T-00 {
   padding: 0 0 0 65px;
   line-height: 22px;
   border-bottom: 1px dashed #2b294511;
   font-size: .9em;
+  position: relative;
 }
 main .S-01 .T-00.isPadding {
   line-height: 28px;
@@ -1715,6 +1753,46 @@ main .S-01 .T-00.isGreen {
 main .S-01 .T-00.isBlue {
   color: #59ABE4;
 }
+main .S-01 .T-00 .isStatusBar {
+  position: absolute;
+  top: 5px;
+  left: 145px;
+  background-color: #2b294533;
+  height: 14px;
+  width: 14px;
+  border-radius: 7px;
+  border: 2px solid white;
+}
+main .S-01 .T-00 .isStatusBar.isBlue {
+  background-color: #59ABE4;
+}
+main .S-01 .T-00 .isStatusBar.isGreen {
+  background-color: #aac559;
+}
+main .S-01 .T-00 .isStatusBar.isYellow {
+  background-color: #FDC669;
+}
+main .S-01 .T-00 .isStatusBar.isOrange {
+  background-color: #E97453;
+}
+main .S-01 .T-00 .isComment {
+  position: absolute;
+  top: 0;
+  left: 165px;
+  font-size: .8em;
+}
+main .S-01 .T-00 .isComment.isBlue {
+  color: #59ABE4;
+}
+main .S-01 .T-00 .isComment.isGreen {
+  color: #aac559;
+}
+main .S-01 .T-00 .isComment.isYellow {
+  color: #FDC669;
+}
+main .S-01 .T-00 .isComment.isOrange {
+  color: #E97453;
+}
 main .S-01 .T-01 {
   line-height: 30px;
   font-size: .8em;
@@ -1753,8 +1831,8 @@ main .S-01 .T-04 .isDate {
   letter-spacing: -.06em;
 }
 main .S-01 .T-06 {
-  font-size: .9em;
-  line-height: 25px;
+  font-size: .8em;
+  line-height: 20px;
   font-weight: 600;
 }
 main .S-01 .T-06 .isStatus {
@@ -1794,7 +1872,7 @@ main .S-01 .T-06 .isRoom {
   text-decoration: underline;
 }
 main .S-01 .T-06.isComment {
-  padding: 15px;
+  padding: 12px 15px;
   background-color: #FDC66933;
   border-radius: 15px;
   font-weight: 400;
@@ -1844,6 +1922,12 @@ main .S-01 .T-07 .isBox.isComment {
 main .S-01 .T-07 .isBox.isComment .isUnit {
   color: #2b294555;
   margin-left: 3px;
+}
+main .S-01 .T-07 .isBox.isComment .isBold {
+  font-weight: 700;
+}
+main .S-01 .T-07 .isBox.isComment .isOrange {
+  color:#E97453;
 }
 main .S-01 .T-08 {
   margin-bottom: 5px;
@@ -1920,10 +2004,18 @@ main .S-01 .T-13 {
   font-size: .8em;
   color: #2b294555;
 }
+main .S-01 .T-13.isMini {
+  font-size: .6em;
+}
 main .S-01 .T-13 .isDate {
   font-size: 1.5em;
   font-weight: 200;
   font-style: italic;
+}
+main .S-01 .T-13.isMini .isDate {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
 }
 main .S-01 .T-14 {
   color: #59abe4;
@@ -1940,8 +2032,8 @@ main .S-01 .T-14 .isDate {
 }
 main .S-01 .T-15 {
   font-size: .8em;
-  padding: 2px 0 2px 50px;
-  line-height: 20px;
+  padding: 0 0 2px 50px;
+  line-height: 25px;
 }
 main .S-01 .T-15 .isBox {
   padding: 2px 5px;
@@ -1957,6 +2049,9 @@ main .S-01 .T-15 .isBox.isOrange {
 main .S-01 .T-15 .isBox.isYellow {
   background-color: #FDC66922;
   color: #FDC669;
+}
+main .S-01 .T-15 .isBox.isThin {
+  font-weight: 300;
 }
 main .S-01 .T-15 .isComment {
   height: 20px;
@@ -1981,6 +2076,9 @@ main .S-01 .T-15 .isComment .isValue.isDiscount {
   color: #E97453;
   font-weight: 700;
 }
+main .S-01 .T-15 .isComment .isValue.isBold {
+  font-weight: 700;
+}
 main .S-01 .T-16 {
   background-color: #eef2e3;
   line-height: 40px;
@@ -2001,6 +2099,22 @@ main .S-01 .T-17 {
 }
 main .S-01 .T-17:hover {
   opacity: .5;
+}
+main .S-01 .T-18 {
+  line-height: 30px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: #eef2e3;
+  font-size: .8em;
+  width: fit-content;
+  position: absolute;
+  top: 40px;
+  font-weight: 600;
+}
+main .S-01 .T-18 span {
+  opacity: .3;
+  margin-left: 2px;
+  font-size: .8em;
 }
 .header-menu {
   width: 64px;
