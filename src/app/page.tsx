@@ -433,6 +433,13 @@ export default function Home() {
                 <p className="T-10">.</p>
               </div>
             </div>
+            <div className="C-22">
+              <p className="T-16 isHover">수납조회</p>
+              <p className="T-16 isHover">시술조회</p>
+              <p className="T-16 isHover">처치조회</p>
+              <p className="T-16 isHover">약처방</p>
+              <p className="T-16 isHover">실천지수</p>
+            </div>
             <div className="C-03">
               <div className="C-02 styleSheet isCard"></div>
               <p className="T-02">패키지 정보</p>

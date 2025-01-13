@@ -1507,21 +1507,17 @@ main .S-01 .C-10 {
 }
 main .S-01 .C-11 {
   margin: 15px 0 0;
-  height: 350px;
+  /* height: 350px; */
+  height: 300px;
   position: relative;
   overflow-y: scroll;
 }
 main .S-01 .C-13 {
   border-radius: 10px;
   overflow: hidden;
-  /* cursor: pointer; */
   margin-bottom: 10px;
   position: relative;
 }
-/* main .S-01 .C-13:hover .C-18 {
-  background-color: #eef2e3;
-  transform: scale(1.05);
-} */
 main .S-01 .C-14 {
   padding: 15px;
   background-color: white;
@@ -1624,6 +1620,10 @@ main .S-01 .C-21.isStomach {
   background-position-x: -40px;
   background-position-y: -2500px;
   background-color: #2b294508;
+}
+main .S-01 .C-22 {
+  height: 40px;
+  margin: 10px -2px;
 }
 main .S-01 .T-00 {
   padding: 0 0 0 65px;
@@ -1945,6 +1945,17 @@ main .S-01 .T-15 .isBox.isOrange {
 main .S-01 .T-15 .isBox.isYellow {
   background-color: #FDC66922;
   color: #FDC669;
+}
+main .S-01 .T-16 {
+  background-color: #eef2e3;
+  line-height: 40px;
+  width: calc(20% - 4px);
+  float: left;
+  text-align: center;
+  font-size: .8em;
+  border-radius: 10px;
+  margin: 0 2px;
+  font-weight: 600;
 }
 .header-menu {
   width: 64px;
