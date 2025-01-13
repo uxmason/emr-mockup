@@ -275,8 +275,8 @@ export default function Home() {
     lv0:'기초자료',
     style:'isNote'
   }];
-  const asideRightRef = useRef(null);
-  const autoCompleteRef = useRef(null);
+  const asideRightRef = useRef<HTMLDivElement>(null);
+  const autoCompleteRef = useRef<HTMLDivElement>(null);
   const [selectedLv0Index] = useState(1);
   const [selectedLv1Index] = useState(0);
   const [isOpenedLv1, setOpenedLv1] = useState(false);
