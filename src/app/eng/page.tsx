@@ -303,9 +303,9 @@ export default function Home() {
               <div className="T-11 isHover" onClick={() => {
                 setOpenedSpecialInfo(true);
               }}>Specific Info<div className={`C-16 styleSheet`}></div></div>
-              <p className="T-00 isBold"><span className="isTitle">Chart Number:</span>360081179</p>
+              <p className="T-00 isBold"><span className="isTitle">Chart No.</span>360081179</p>
               <p className="T-01"><span className="isTitle">Regdate:</span>24.05.09</p>
-              <p className="T-00 isBold"><span className="isTitle">Customer Name:</span>문성후</p>
+              <p className="T-00 isBold"><span className="isTitle">Name:</span>문성후</p>
               <p className="T-01"><span className="isTitle">Eng Name:</span>Moon Sung Hoo</p>
               <p className="T-00"><span className="isTitle">License:</span>971030-2094311</p>
               <p className="T-01">female 36 y/o National Verified</p>
