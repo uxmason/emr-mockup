@@ -1040,6 +1040,9 @@ aside .T-01 {
   color: #2b294577;
   text-indent: 50px;
 }
+.urtitan.isEng .aside-right .S-00 .T-06 {
+  font-size: .65em;
+}
 .aside-right .S-00 .T-07 {
   padding: 0 10px;
   height: 24px;
@@ -1193,6 +1196,9 @@ aside .T-01 {
 .aside-right .S-03 .T-00.isSelected {
   color: white;
   background-color: #2B2945;
+}
+.urtitan.isEng .aside-right .S-03 .T-00 {
+  font-size: .6em;
 }
 main {
   position: absolute;
@@ -2041,6 +2047,7 @@ main .S-01 .T-15 .isBox {
   border-radius: 5px;
   margin-right: 5px;
   font-weight: 600;
+  display: inline-block;
 }
 main .S-01 .T-15 .isBox.isOrange {
   background-color: #E9745322;
