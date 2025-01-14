@@ -261,7 +261,7 @@ export default function Home() {
     style:'isHeartRate'
   },{
     lv0:'진료관리',
-    style:'isConsultation'
+    style:'isTreatment'
   },{
     lv0:'CRM관리',
     style:'isCRM'

@@ -87,7 +87,7 @@ h1 {
   background-position-x: -40px;
   background-position-y: -160px;
 }
-.isIcon.isConsultation {
+.isIcon.isTreatment {
   background-position-x: -80px;
   background-position-y: -160px;
 }
@@ -1210,7 +1210,7 @@ main .S-00 {
   position: relative;
 }
 main .S-00 .C-00 {
-  width: calc(100% - 400px);
+  width: calc(100% - 440px);
   height: 40px;
   position: relative;
   display: inline-block;
@@ -1231,7 +1231,6 @@ main .S-00 .C-03 {
   background-position-y: -1000px;
   position: absolute;
   top: 10px;
-  /* left: calc(50% - 130px); */
   left: 50px;
   opacity: .05;
 }
@@ -1241,15 +1240,16 @@ main .S-00 .C-04 {
   background-position-y: -1220px;
   position: absolute;
   top: 200px;
-  /* left: calc(50% - 10px); */
   left: 170px;
   transform: rotate(3deg);
   opacity: .3;
 }
+.urtitan.isEng main .S-00 .C-04 {
+  background-position-y: -1420px;
+}
 main .S-00 .C-05 {
   position: absolute;
   top:60px;
-  /* left: calc(50% - 230px); */
   left: -2px;
   background-color: #fff8;
   width: 460px;
@@ -1277,7 +1277,7 @@ main .S-00 .C-08 {
 }
 main .S-00 .C-09 {
   position: relative;
-  width: 400px;
+  width: 440px;
   height: 40px;
   display: inline-block;
 }
