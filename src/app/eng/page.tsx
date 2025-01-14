@@ -342,7 +342,7 @@ export default function Home() {
                   <div className="C-13 isSurgery">
                     <div className="C-18">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>Abdomen위아래+러브+옆구리(앞뒤)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">금액:<span className="isValue isPrice">2,112,000</span>원</span><span className="isComment">DC:<span className="isValue isDiscount">-211,200</span>원</span><span className="isComment">registrar:<span className="isValue">김지수</span></span><span className="isComment">ref.<span className="isValue">뒷볼방향</span></span></p>
+                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>Abdomen위아래+러브+옆구리(앞뒤)<span className="isComment">count:<span className="isValue isBold">2</span></span><span className="isComment">금액:<span className="isValue isPrice">2,112,000</span>원</span><span className="isComment">DC:<span className="isValue isDiscount">-211,200</span>원</span><span className="isComment">registrar:<span className="isValue">김지수</span></span><span className="isComment">ref.<span className="isValue">뒷볼방향</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19">
@@ -352,7 +352,7 @@ export default function Home() {
                   <div className="C-13 isSurgery">
                     <div className="C-18">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>가멘트-Abdomen(여자용)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isOrange">O.P</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>가멘트-Abdomen(여자용)<span className="isComment">count:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19">
@@ -362,7 +362,7 @@ export default function Home() {
                   <div className="C-13 isLams">
                     <div className="C-18 isCompleted">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isYellow">Procedures</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>지흡후관리-RF(병행)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isYellow">Procedures</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>지흡후관리-RF(병행)<span className="isComment">count:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19 isCompleted">
@@ -372,7 +372,7 @@ export default function Home() {
                   <div className="C-13 isLams">
                     <div className="C-18 isCompleted">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isYellow">Procedures</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>지흡후관리-엔더(병행)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isYellow">Procedures</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>지흡후관리-엔더(병행)<span className="isComment">count:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19 isCompleted">
@@ -382,7 +382,7 @@ export default function Home() {
                   <div className="C-13 isLams">
                     <div className="C-18 isCompleted">
                       <div className="C-20 styleSheet"></div>
-                      <p className="T-15"><span className="isBox isYellow">Procedures</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>지흡후관리-카복시(병행)<span className="isComment">횟수:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
+                      <p className="T-15"><span className="isBox isYellow">Procedures</span><span className="isBox">Abdomen</span><span className="isBox isThin">FAT0946</span>지흡후관리-카복시(병행)<span className="isComment">count:<span className="isValue isBold">2</span></span><span className="isComment">registrar:<span className="isValue">김지수</span></span></p>
                       {/* <div className="C-21 styleSheet isStomach"></div> */}
                     </div>
                     <div className="C-19 isCompleted">
