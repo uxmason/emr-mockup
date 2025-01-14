@@ -1337,6 +1337,9 @@ main .S-00 .T-04 {
   border-bottom: 1px dashed #2b294522;
   position: relative;
 }
+.urtitan.isEng main .S-00 .T-04 {
+  font-size: .7em;
+}
 main .S-00 .T-04:hover {
   opacity: .5;
   text-decoration: underline;
