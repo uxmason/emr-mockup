@@ -19,35 +19,35 @@ export default function Home() {
     style:'isPart',
     lv1:[{
       name:'접수 파트',
-      style:'isPart',
+      style:'isReception',
       lv2:[],
     },{
       name:'상담 파트',
-      style:'isPart',
+      style:'isConsultation',
       lv2:[],
     },{
       name:'시술 파트',
-      style:'isConsultation',
+      style:'isSyringe',
       lv2:[],
     },{
       name:'진료 파트',
-      style:'isConsultation',
+      style:'isTreatment',
       lv2:[],
     },{
       name:'수술 파트',
-      style:'isHeartRate',
+      style:'isSurgery',
       lv2:[],
     },{
       name:'병실 파트',
-      style:'isPart',
+      style:'isBedroom',
       lv2:[],
     },{
       name:'촬영 파트',
-      style:'isPart',
+      style:'isCamera',
       lv2:[],
     },{
       name:'CRM 파트',
-      style:'isPart',
+      style:'isCRM',
       lv2:[],
     }]
   },{
@@ -55,11 +55,11 @@ export default function Home() {
     style:'isDollar',
     lv1:[{
       name:'일일 업무마감 현황',
-      style:'isPart',
+      style:'isCheck',
       lv2:[],
     },{
       name:'수납확인서 내역 조회',
-      style:'isPart',
+      style:'isDollar',
       lv2:[],
     }]
   },{
@@ -71,7 +71,7 @@ export default function Home() {
       lv2:[],
     },{
       name:'바코드관리',
-      style:'isPart',
+      style:'isBarcode',
       lv2:[{
         name:'고객바코드 접수통계',
         style:'isPart',
@@ -81,7 +81,7 @@ export default function Home() {
       }],
     },{
       name:'T/F 관리',
-      style:'isPart',
+      style:'isTask',
       lv2:[{
         name:'T/F 고객자료 조회',
         style:'isPart',
@@ -258,7 +258,7 @@ export default function Home() {
     style:'isCheck'
   },{
     lv0:'수술관리',
-    style:'isHeartRate'
+    style:'isSurgery'
   },{
     lv0:'진료관리',
     style:'isTreatment'

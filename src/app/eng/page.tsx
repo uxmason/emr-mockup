@@ -463,7 +463,7 @@ export default function Home() {
             </div>
             <div className="C-01 isWide">
               <div className="C-02 styleSheet isAfterEffect"></div>
-              <p className="T-02">After effect status</p>
+              <p className="T-02">After-effect status</p>
               <p className="T-13 isMini">Final Analysis Date: <span className="isDate isMini">2024.09.24</span></p>
               <p className="T-00"><span className="isTitle">Bruise:</span>5.0<span className="isUnit">%</span><span className="isStatusBar isBlue"></span><span className="isComment isBlue">low</span></p>
               <p className="T-00"><span className="isTitle">Biobond:</span>50.7<span className="isUnit">%</span><span className="isStatusBar isBlue"></span><span className="isComment isBlue">low</span></p>

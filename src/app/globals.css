@@ -83,7 +83,7 @@ h1 {
 .isIcon.isCheck {
   background-position-y: -160px;
 }
-.isIcon.isHeartRate {
+.isIcon.isSurgery {
   background-position-x: -40px;
   background-position-y: -160px;
 }
@@ -126,7 +126,7 @@ h1 {
   background-position-y: -120px;
 }
 .isIcon.isCheck.isSelected,
-.isIcon.isHeartRate.isSelected,
+.isIcon.isSurgery.isSelected,
 .isIcon.isConsultation.isSelected,
 .isIcon.isCRM.isSelected,
 .isIcon.isSetting.isSelected {
@@ -162,14 +162,22 @@ h1 {
   background-position-x: -80px;
   background-position-y: -500px;
 }
+.isMiniIcon.isBarcode {
+  background-position-x: -100px;
+  background-position-y: -500px;
+}
+.isMiniIcon.isBedroom {
+  background-position-x: -120px;
+  background-position-y: -500px;
+}
 .isMiniIcon.isCheck {
   background-position-y: -540px;
 }
-.isMiniIcon.isHeartRate {
+.isMiniIcon.isSurgery {
   background-position-x: -20px;
   background-position-y: -540px;
 }
-.isMiniIcon.isConsultation {
+.isMiniIcon.isTreatment {
   background-position-x: -40px;
   background-position-y: -540px;
 }
@@ -179,6 +187,14 @@ h1 {
 }
 .isMiniIcon.isSetting {
   background-position-x: -80px;
+  background-position-y: -540px;
+}
+.isMiniIcon.isPrescription {
+  background-position-x: -100px;
+  background-position-y: -540px;
+}
+.isMiniIcon.isCamera {
+  background-position-x: -120px;
   background-position-y: -540px;
 }
 .isMiniIcon.isStatistic {
@@ -192,6 +208,22 @@ h1 {
   background-position-x: -40px;
   background-position-y: -580px;
 }
+.isMiniIcon.isConsultation {
+  background-position-x: -60px;
+  background-position-y: -580px;
+}
+.isMiniIcon.isSyringe {
+  background-position-x: -80px;
+  background-position-y: -580px;
+}
+.isMiniIcon.isReception {
+  background-position-x: -100px;
+  background-position-y: -580px;
+}
+.isMiniIcon.isTask {
+  background-position-x: -120px;
+  background-position-y: -580px;
+}
 
 .isMiniIcon.isPart.isSelected,
 .isMiniIcon.isDollar.isSelected,
@@ -200,8 +232,8 @@ h1 {
   background-position-y: -520px;
 }
 .isMiniIcon.isCheck.isSelected,
-.isMiniIcon.isHeartRate.isSelected,
-.isMiniIcon.isConsultation.isSelected,
+.isMiniIcon.isSurgery.isSelected,
+.isMiniIcon.isTreatment.isSelected,
 .isMiniIcon.isCRM.isSelected,
 .isMiniIcon.isSetting.isSelected {
   background-position-y: -560px;
@@ -1513,7 +1545,7 @@ main .S-01 .C-05 {
   background-color: #2b294511;
 }
 main .S-01 .C-05.isShort {
-  height: 235px;
+  height: 230px;
 }
 main .S-01 .C-07 {
   padding-bottom: 15px;
