@@ -1092,6 +1092,7 @@ aside .T-01 {
   top:0;
   position: relative;
   font-weight: 600;
+  filter:sepia(1)
 }
 .aside-right .S-00 .T-07.isTreatment {
   background-color: #59ABE422;
@@ -1111,6 +1112,7 @@ aside .T-01 {
 }
 .aside-right .S-00 .T-07.isSelected {
   color: white;
+  filter: none;
 }
 .aside-right .S-00 .T-07.isTreatment.isSelected {
   background-color: #59ABE4;
