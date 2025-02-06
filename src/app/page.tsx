@@ -514,19 +514,19 @@ export default function Home() {
                 <div className="C-06">
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isNow"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
-                    <div className="C-10"><p className="T-06"><span className="isStatus isNow">내원중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isNow">내원중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isBedroom"></span>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
                   </div>
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isCompleted"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
-                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">진료완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">진료완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isBedroom"></span>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
                   </div>
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isCompleted"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
-                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">진료완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">진료완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isBedroom"></span>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
                   </div>
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isCompleted"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
-                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">진료완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompleted">진료완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isBedroom"></span>제2진료실</span>체외충격파</p><p className="T-07"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Idrus"></span>이유섭<span className="isUnit">처방의</span></span></p></div>
                   </div>
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isComment"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
@@ -534,7 +534,7 @@ export default function Home() {
                   </div>
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isCompletedCouncil"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
-                    <div className="C-10"><p className="T-06"><span className="isStatus isCompletedCouncil">상담완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제8상담실</span>시술신환상담</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span></p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompletedCouncil">상담완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isConsultation"></span>제8상담실</span>시술신환상담</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span></p></div>
                   </div>
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isComment"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
@@ -542,7 +542,7 @@ export default function Home() {
                   </div>
                   <div className="C-07">
                     <div className="C-08"><div className="C-09 isCompletedCouncil"></div><p className="T-04"><span className="isDate">25.01.13</span><br/>14:30</p></div>
-                    <div className="C-10"><p className="T-06"><span className="isStatus isCompletedCouncil">상담완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제8상담실</span>시술신환상담</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span></p></div>
+                    <div className="C-10"><p className="T-06"><span className="isStatus isCompletedCouncil">상담완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isConsultation"></span>제8상담실</span>시술신환상담</p><p className="T-07"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span></p></div>
                   </div>
                 </div>
               </div>
@@ -709,7 +709,7 @@ export default function Home() {
                   </div>
                   <div className="C-04">
                     <p className="T-02"><span className="isName">김인나</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360076012</span><span className="isBox isOrange">재환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                    <p className="T-03"><span className="isStatus isNow">진료중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제2진료실</span>R.F 고주파</p>
+                    <p className="T-03"><span className="isStatus isNow">진료중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isBedroom"></span>제2진료실</span>R.F 고주파</p>
                     <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>25.01.08</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
                   </div>
                 </div>
@@ -720,7 +720,7 @@ export default function Home() {
                   </div>
                   <div className="C-04">
                     <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                    <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4진료실</span>지방흡입술</p>
+                    <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isBedroom"></span>제4진료실</span>지방흡입술</p>
                     <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Ipsalm"></span>김현주<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
                   </div>
                 </div>
@@ -731,7 +731,7 @@ export default function Home() {
                   </div>
                   <div className="C-04">
                     <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                    <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4진료실</span>지방흡입술</p>
+                    <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isBedroom"></span>제4진료실</span>지방흡입술</p>
                     <p className="T-04"><span className="isBox isDoctor" onMouseEnter={() => {setTickerDoctor(true)}} onMouseLeave={() => {setTickerDoctor(false)}}><span className="isPortrait Ipsalm"></span>김현주<span className="isUnit">담당의</span></span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
                   </div>
                 </div>
@@ -790,7 +790,7 @@ export default function Home() {
                 </div>
                 <div className="C-04">
                   <p className="T-02"><span className="isName">김인나</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360076012</span><span className="isBox isOrange">재환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                  <p className="T-03"><span className="isStatus isNow">상담중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제8상담실</span>시술재환상담</p>
+                  <p className="T-03"><span className="isStatus isNow">상담중</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isConsultation"></span>제8상담실</span>시술재환상담</p>
                   <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>25.01.08</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span></p>
                 </div>
               </div>
@@ -801,7 +801,7 @@ export default function Home() {
                 </div>
                 <div className="C-04">
                   <p className="T-02"><span className="isName">장미령</span><span className="isPsentry" onMouseEnter={() => {setTickerPsentry(true)}} onMouseLeave={() => {setTickerPsentry(false)}}>360081159</span><span className="isBox isGreen">신환</span><span className="isLicence"><span className="styleSheet isIcon"></span>971030-2110411</span></p>
-                  <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}>제4상담실</span>시술신환상담</p>
+                  <p className="T-03"><span className="isStatus isCompleted">완료</span><span className="isRoom isHover" onMouseEnter={() => {setTickerRoom(true)}} onMouseLeave={() => {setTickerRoom(false)}}><span className="isMiniIcon styleSheet isConsultation"></span>제4상담실</span>시술신환상담</p>
                   <p className="T-04"><span className="isBox isComment"><span className="isUnit">담당: </span>김란주</span><span className="isBox isComment"><span className="isUnit">등록일: </span>24.09.23</span><span className="isBox isComment"><span className="isUnit">연락처: </span>010-9054-3591</span><span className="isBox isComment"><span className="isUnit">참조: </span>장액종 경과</span></p>
                   <div></div>
                 </div>

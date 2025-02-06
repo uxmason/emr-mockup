@@ -973,19 +973,27 @@ aside .T-01 {
   position: absolute;
 }
 .aside-right .S-00 .T-03 {
-  font-size: .9em;
+  font-size: .8em;
   line-height: 34px;
   font-weight: 600;
 }
 .aside-right .S-00 .T-03 .isRoom {
   font-size: .9em;
-  background-color: #887EF133;
-  padding: 3px 5px;
-  margin: 0px 5px 0px 0px;
+  background-color: #2b294511;
+  padding: 1.5px 5px 1.5px 25px;
+  margin: 0 5px 0 0;
   border-radius: 5px;
-  color: #887EF1;
+  color: #2b294588;
   text-decoration: underline;
+  display: inline-block;
+  position: relative;
+  line-height: 20px;
   transition: .3s;
+}
+.aside-right .S-00 .T-03 .isRoom .isMiniIcon {
+  position: absolute;
+  top:1.5px;
+  left:3px;
 }
 .aside-right .S-00 .T-03 .isStatus {
   font-size: .9em;
@@ -1053,7 +1061,7 @@ aside .T-01 {
   font-weight: 400;
 }
 .aside-right .S-00 .T-04 .isBox.isComment .isUnit {
-  color: #2b294555;
+  color: #2b294588;
   margin-left: 3px;
 }
 .aside-right .S-00 .T-05 {
@@ -1905,12 +1913,19 @@ main .S-01 .T-06 .isStatus.isCompleted {
 }
 main .S-01 .T-06 .isRoom {
   font-size: .9em;
-  background-color: #887ef133;
-  padding: 3px 5px;
+  background-color: #2b294511;
+  padding: 1.5px 5px 1.5px 25px;
   margin: 0 5px 0 0;
   border-radius: 5px;
-  color: #887ef1;
+  color: #2b294588;
   text-decoration: underline;
+  display: inline-block;
+  position: relative;
+}
+main .S-01 .T-06 .isRoom .isMiniIcon {
+  position: absolute;
+  top:1.5px;
+  left:3px;
 }
 main .S-01 .T-06.isComment {
   padding: 12px 15px;
@@ -1961,7 +1976,7 @@ main .S-01 .T-07 .isBox.isComment {
   font-weight: 400;
 }
 main .S-01 .T-07 .isBox.isComment .isUnit {
-  color: #2b294555;
+  color: #2b294588;
   margin-left: 3px;
 }
 main .S-01 .T-07 .isBox.isComment .isBold {
@@ -2105,7 +2120,7 @@ main .S-01 .T-15 .isComment {
   display: inline-block;
   font-size: .7em;
   font-weight: 400;
-  color: #2b294555;
+  color: #2b294588;
 }
 main .S-01 .T-15 .isComment .isValue {
   margin-left: 3px;
